@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [AmazonProject]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="testng(failed)">
+    <classes>
+      <class name="testlayer.SearchingTest">
+        <methods>
+          <include name="initialsetup"/>
+          <include name="closeBrowser"/>
+          <include name="productsPerPage"/>
+        </methods>
+      </class> <!-- testlayer.SearchingTest -->
+      <class name="testlayer.GuestTest">
+        <methods>
+          <include name="initialsetup"/>
+          <include name="PlaceOrderAsGuestUser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testlayer.GuestTest -->
+      <class name="testlayer.ShoppingCartTest">
+        <methods>
+          <include name="applyInvalidCoupon"/>
+          <include name="initialsetup"/>
+        </methods>
+      </class> <!-- testlayer.ShoppingCartTest -->
+    </classes>
+  </test> <!-- testng(failed) -->
+</suite> <!-- Failed suite [AmazonProject] -->

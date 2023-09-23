@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>TestNG:  testng</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testng</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 23 09:36:01 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>734 seconds (734108 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testlayer.ShoppingCartTest.applyInvalidCoupon()'><b>applyInvalidCoupon</b><br>Test class: testlayer.ShoppingCartTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #spc\-gcpromoinput
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [620e6239-0c35-4d87-ad4b-f6b7a4ae08cb, findElement {using=id, value=spc-gcpromoinput}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:43650, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 55756, moz:profile: C:\Users\kulje\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 620e6239-0c35-4d87-ad4b-f6b7a4ae08cb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at pompackage.PomShoppingCart.enterInvalidCoupon(PomShoppingCart.java:77)
+	at testlayer.ShoppingCartTest.applyInvalidCoupon(ShoppingCartTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace162360357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace162360357'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #spc\-gcpromoinput
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [620e6239-0c35-4d87-ad4b-f6b7a4ae08cb, findElement {using=id, value=spc-gcpromoinput}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:43650, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 55756, moz:profile: C:\Users\kulje\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 620e6239-0c35-4d87-ad4b-f6b7a4ae08cb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at pompackage.PomShoppingCart.enterInvalidCoupon(PomShoppingCart.java:77)
+	at testlayer.ShoppingCartTest.applyInvalidCoupon(ShoppingCartTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>54</td>
+<td>testlayer.ShoppingCartTest@72cc7e6f</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.productsPerPage()'><b>productsPerPage</b><br>Test class: testlayer.SearchingTest</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [235]
+	at testlayer.SearchingTest.productsPerPage(SearchingTest.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace74208901", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace74208901'><pre>java.lang.AssertionError: expected [60] but found [235]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:643)
+	at testlayer.SearchingTest.productsPerPage(SearchingTest.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.GuestTest.PlaceOrderAsGuestUser()'><b>PlaceOrderAsGuestUser</b><br>Test class: testlayer.GuestTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Order Placed Successfully] but found [Sign in]
+	at testlayer.GuestTest.PlaceOrderAsGuestUser(GuestTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1918406887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1918406887'><pre>java.lang.AssertionError: expected [Order Placed Successfully] but found [Sign in]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testlayer.GuestTest.PlaceOrderAsGuestUser(GuestTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>48</td>
+<td>testlayer.GuestTest@4b29d1d2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testlayer.YourAccountTest.checkYourAccountLink()'><b>checkYourAccountLink</b><br>Test class: testlayer.YourAccountTest</td>
+<td></td>
+<td>1</td>
+<td>testlayer.YourAccountTest@18271936</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.searchItemByPartialItemNumber()'><b>searchItemByPartialItemNumber</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>1</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.LoginTest.invalidPhone()'><b>invalidPhone</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.searchByKeyword()'><b>searchByKeyword</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>46</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.LoginTest.emptyPassword()'><b>emptyPassword</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.LoginAndSecurityTest.editName()'><b>editName</b><br>Test class: testlayer.LoginAndSecurityTest</td>
+<td></td>
+<td>2</td>
+<td>testlayer.LoginAndSecurityTest@5f049ea1</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.searchItemByPartialItemText()'><b>searchItemByPartialItemText</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>29</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.YourAccountTest.sublistDisplayed()'><b>sublistDisplayed</b><br>Test class: testlayer.YourAccountTest</td>
+<td></td>
+<td>1</td>
+<td>testlayer.YourAccountTest@18271936</td></tr>
+<tr>
+<td title='testlayer.LoginTest.keepMeSignedIn()'><b>keepMeSignedIn</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.searchByDescriptionText()'><b>searchByDescriptionText</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>21</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.LoginTest.invalidEmailAddress()'><b>invalidEmailAddress</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.ShoppingCartTest.addOneItemInCart()'><b>addOneItemInCart</b><br>Test class: testlayer.ShoppingCartTest</td>
+<td></td>
+<td>48</td>
+<td>testlayer.ShoppingCartTest@72cc7e6f</td></tr>
+<tr>
+<td title='testlayer.LoginTest.validEmailAddress()'><b>validEmailAddress</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.YourAccountTest.verifyHomePageMsg()'><b>verifyHomePageMsg</b><br>Test class: testlayer.YourAccountTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.YourAccountTest@18271936</td></tr>
+<tr>
+<td title='testlayer.YourOrdersTest.notYetShipped()'><b>notYetShipped</b><br>Test class: testlayer.YourOrdersTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.YourOrdersTest@909217e</td></tr>
+<tr>
+<td title='testlayer.ShoppingCartTest.addDifferentItems()'><b>addDifferentItems</b><br>Test class: testlayer.ShoppingCartTest</td>
+<td></td>
+<td>117</td>
+<td>testlayer.ShoppingCartTest@72cc7e6f</td></tr>
+<tr>
+<td title='testlayer.YourOrdersTest.cancelledOrders()'><b>cancelledOrders</b><br>Test class: testlayer.YourOrdersTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.YourOrdersTest@909217e</td></tr>
+<tr>
+<td title='testlayer.YourOrdersTest.buyAgainRecommendations()'><b>buyAgainRecommendations</b><br>Test class: testlayer.YourOrdersTest</td>
+<td></td>
+<td>1</td>
+<td>testlayer.YourOrdersTest@909217e</td></tr>
+<tr>
+<td title='testlayer.ShoppingCartTest.removeItemFromCart()'><b>removeItemFromCart</b><br>Test class: testlayer.ShoppingCartTest</td>
+<td></td>
+<td>4</td>
+<td>testlayer.ShoppingCartTest@72cc7e6f</td></tr>
+<tr>
+<td title='testlayer.LoginTest.validEmailAndPassword()'><b>validEmailAndPassword</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.LoginTest.emptyEmailAddress()'><b>emptyEmailAddress</b><br>Test class: testlayer.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.LoginTest@606e4010</td></tr>
+<tr>
+<td title='testlayer.YourAddressTest.checkAddressAddedSuccessfully()'><b>checkAddressAddedSuccessfully</b><br>Test class: testlayer.YourAddressTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.YourAddressTest@72035809</td></tr>
+<tr>
+<td title='testlayer.YourOrdersTest.orderHistoryPast3Months()'><b>orderHistoryPast3Months</b><br>Test class: testlayer.YourOrdersTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.YourOrdersTest@909217e</td></tr>
+<tr>
+<td title='testlayer.YourAddressTest.addAddress()'><b>addAddress</b><br>Test class: testlayer.YourAddressTest</td>
+<td></td>
+<td>2</td>
+<td>testlayer.YourAddressTest@72035809</td></tr>
+<tr>
+<td title='testlayer.YourAccountTest.checkMusicLibraryLink()'><b>checkMusicLibraryLink</b><br>Test class: testlayer.YourAccountTest</td>
+<td></td>
+<td>3</td>
+<td>testlayer.YourAccountTest@18271936</td></tr>
+<tr>
+<td title='testlayer.YourAccountTest.checkPrimeMembershipLink()'><b>checkPrimeMembershipLink</b><br>Test class: testlayer.YourAccountTest</td>
+<td></td>
+<td>3</td>
+<td>testlayer.YourAccountTest@18271936</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.searchItemByItemNumber()'><b>searchItemByItemNumber</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>0</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+<tr>
+<td title='testlayer.YourAddressTest.emptyAddressDetailsErrMsgs()'><b>emptyAddressDetailsErrMsgs</b><br>Test class: testlayer.YourAddressTest</td>
+<td></td>
+<td>13</td>
+<td>testlayer.YourAddressTest@72035809</td></tr>
+<tr>
+<td title='testlayer.SearchingTest.nextPage()'><b>nextPage</b><br>Test class: testlayer.SearchingTest</td>
+<td></td>
+<td>3</td>
+<td>testlayer.SearchingTest@5afa3c9</td></tr>
+</table><p>
+</body>
+</html>

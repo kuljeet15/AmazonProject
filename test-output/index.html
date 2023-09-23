@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AmazonProject" class="navigator-link">
+              <span class="suite-name border-failed">AmazonProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AmazonProject" class="navigator-link ">
+                    <span>C:\Selenium\Selenium_WorkSpace\AmazonProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AmazonProject" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AmazonProject" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AmazonProject" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AmazonProject" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AmazonProject" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AmazonProject" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 3 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AmazonProject" class="hide-methods failed suite-AmazonProject"> (hide)</a> <!-- hide-methods failed suite-AmazonProject -->
+                      <a href="#" panel-name="suite-AmazonProject" class="show-methods failed suite-AmazonProject"> (show)</a> <!-- show-methods failed suite-AmazonProject -->
+                    </span>
+                    <div class="method-list-content failed suite-AmazonProject">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.GuestTest" class="method navigator-link" hash-for-method="PlaceOrderAsGuestUser">PlaceOrderAsGuestUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.ShoppingCartTest" class="method navigator-link" hash-for-method="applyInvalidCoupon">applyInvalidCoupon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="productsPerPage">productsPerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AmazonProject -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonProject" class="hide-methods passed suite-AmazonProject"> (hide)</a> <!-- hide-methods passed suite-AmazonProject -->
+                      <a href="#" panel-name="suite-AmazonProject" class="show-methods passed suite-AmazonProject"> (show)</a> <!-- show-methods passed suite-AmazonProject -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonProject">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAddressTest" class="method navigator-link" hash-for-method="addAddress">addAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.ShoppingCartTest" class="method navigator-link" hash-for-method="addDifferentItems">addDifferentItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.ShoppingCartTest" class="method navigator-link" hash-for-method="addOneItemInCart">addOneItemInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourOrdersTest" class="method navigator-link" hash-for-method="buyAgainRecommendations">buyAgainRecommendations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourOrdersTest" class="method navigator-link" hash-for-method="cancelledOrders">cancelledOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAddressTest" class="method navigator-link" hash-for-method="checkAddressAddedSuccessfully">checkAddressAddedSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAccountTest" class="method navigator-link" hash-for-method="checkMusicLibraryLink">checkMusicLibraryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAccountTest" class="method navigator-link" hash-for-method="checkPrimeMembershipLink">checkPrimeMembershipLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAccountTest" class="method navigator-link" hash-for-method="checkYourAccountLink">checkYourAccountLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginAndSecurityTest" class="method navigator-link" hash-for-method="editName">editName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAddressTest" class="method navigator-link" hash-for-method="emptyAddressDetailsErrMsgs">emptyAddressDetailsErrMsgs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="emptyEmailAddress">emptyEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="emptyPassword">emptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="invalidEmailAddress">invalidEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="invalidPhone">invalidPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="keepMeSignedIn">keepMeSignedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="nextPage">nextPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourOrdersTest" class="method navigator-link" hash-for-method="notYetShipped">notYetShipped</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourOrdersTest" class="method navigator-link" hash-for-method="orderHistoryPast3Months">orderHistoryPast3Months</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.ShoppingCartTest" class="method navigator-link" hash-for-method="removeItemFromCart">removeItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="searchByDescriptionText">searchByDescriptionText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="searchByKeyword">searchByKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="searchItemByItemNumber">searchItemByItemNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="searchItemByPartialItemNumber">searchItemByPartialItemNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.SearchingTest" class="method navigator-link" hash-for-method="searchItemByPartialItemText">searchItemByPartialItemText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAccountTest" class="method navigator-link" hash-for-method="sublistDisplayed">sublistDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="validEmailAddress">validEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.LoginTest" class="method navigator-link" hash-for-method="validEmailAndPassword">validEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonProject" title="testlayer.YourAccountTest" class="method navigator-link" hash-for-method="verifyHomePageMsg">verifyHomePageMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmazonProject" class="panel AmazonProject">
+          <div class="suite-AmazonProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testlayer.SearchingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productsPerPage">
+                  </a> <!-- productsPerPage -->
+                  <span class="method-name">productsPerPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [235]
+	at testlayer.SearchingTest.productsPerPage(SearchingTest.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-failed -->
+          <div class="suite-AmazonProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testlayer.GuestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderAsGuestUser">
+                  </a> <!-- PlaceOrderAsGuestUser -->
+                  <span class="method-name">PlaceOrderAsGuestUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Order Placed Successfully] but found [Sign in]
+	at testlayer.GuestTest.PlaceOrderAsGuestUser(GuestTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-failed -->
+          <div class="suite-AmazonProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testlayer.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyInvalidCoupon">
+                  </a> <!-- applyInvalidCoupon -->
+                  <span class="method-name">applyInvalidCoupon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #spc\-gcpromoinput
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [620e6239-0c35-4d87-ad4b-f6b7a4ae08cb, findElement {using=id, value=spc-gcpromoinput}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:43650, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 55756, moz:profile: C:\Users\kulje\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 620e6239-0c35-4d87-ad4b-f6b7a4ae08cb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at pompackage.PomShoppingCart.enterInvalidCoupon(PomShoppingCart.java:77)
+	at testlayer.ShoppingCartTest.applyInvalidCoupon(ShoppingCartTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-failed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.LoginAndSecurityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editName">
+                  </a> <!-- editName -->
+                  <span class="method-name">editName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.YourAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddress">
+                  </a> <!-- addAddress -->
+                  <span class="method-name">addAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAddressAddedSuccessfully">
+                  </a> <!-- checkAddressAddedSuccessfully -->
+                  <span class="method-name">checkAddressAddedSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyAddressDetailsErrMsgs">
+                  </a> <!-- emptyAddressDetailsErrMsgs -->
+                  <span class="method-name">emptyAddressDetailsErrMsgs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.SearchingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nextPage">
+                  </a> <!-- nextPage -->
+                  <span class="method-name">nextPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByDescriptionText">
+                  </a> <!-- searchByDescriptionText -->
+                  <span class="method-name">searchByDescriptionText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByKeyword">
+                  </a> <!-- searchByKeyword -->
+                  <span class="method-name">searchByKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemByItemNumber">
+                  </a> <!-- searchItemByItemNumber -->
+                  <span class="method-name">searchItemByItemNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemByPartialItemNumber">
+                  </a> <!-- searchItemByPartialItemNumber -->
+                  <span class="method-name">searchItemByPartialItemNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemByPartialItemText">
+                  </a> <!-- searchItemByPartialItemText -->
+                  <span class="method-name">searchItemByPartialItemText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyEmailAddress">
+                  </a> <!-- emptyEmailAddress -->
+                  <span class="method-name">emptyEmailAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyPassword">
+                  </a> <!-- emptyPassword -->
+                  <span class="method-name">emptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmailAddress">
+                  </a> <!-- invalidEmailAddress -->
+                  <span class="method-name">invalidEmailAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPhone">
+                  </a> <!-- invalidPhone -->
+                  <span class="method-name">invalidPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keepMeSignedIn">
+                  </a> <!-- keepMeSignedIn -->
+                  <span class="method-name">keepMeSignedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validEmailAddress">
+                  </a> <!-- validEmailAddress -->
+                  <span class="method-name">validEmailAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validEmailAndPassword">
+                  </a> <!-- validEmailAndPassword -->
+                  <span class="method-name">validEmailAndPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.YourOrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyAgainRecommendations">
+                  </a> <!-- buyAgainRecommendations -->
+                  <span class="method-name">buyAgainRecommendations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelledOrders">
+                  </a> <!-- cancelledOrders -->
+                  <span class="method-name">cancelledOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notYetShipped">
+                  </a> <!-- notYetShipped -->
+                  <span class="method-name">notYetShipped</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderHistoryPast3Months">
+                  </a> <!-- orderHistoryPast3Months -->
+                  <span class="method-name">orderHistoryPast3Months</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDifferentItems">
+                  </a> <!-- addDifferentItems -->
+                  <span class="method-name">addDifferentItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addOneItemInCart">
+                  </a> <!-- addOneItemInCart -->
+                  <span class="method-name">addOneItemInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemFromCart">
+                  </a> <!-- removeItemFromCart -->
+                  <span class="method-name">removeItemFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+          <div class="suite-AmazonProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.YourAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMusicLibraryLink">
+                  </a> <!-- checkMusicLibraryLink -->
+                  <span class="method-name">checkMusicLibraryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPrimeMembershipLink">
+                  </a> <!-- checkPrimeMembershipLink -->
+                  <span class="method-name">checkPrimeMembershipLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYourAccountLink">
+                  </a> <!-- checkYourAccountLink -->
+                  <span class="method-name">checkYourAccountLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sublistDisplayed">
+                  </a> <!-- sublistDisplayed -->
+                  <span class="method-name">sublistDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageMsg">
+                  </a> <!-- verifyHomePageMsg -->
+                  <span class="method-name">verifyHomePageMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonProject-class-passed -->
+        </div> <!-- panel AmazonProject -->
+        <div panel-name="test-xml-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\Selenium_WorkSpace\AmazonProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;AmazonProject&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;testng&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testlayer.GuestTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.LoginAndSecurityTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.SearchingTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.YourAddressTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.YourOrdersTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.YourAccountTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testng --&gt;
+&lt;/suite&gt; &lt;!-- AmazonProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmazonProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testng (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmazonProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmazonProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmazonProject');
+function tableData_AmazonProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addDifferentItems')
+data.setCell(0, 2, 'testlayer.ShoppingCartTest')
+data.setCell(0, 3, 117435);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'applyInvalidCoupon')
+data.setCell(1, 2, 'testlayer.ShoppingCartTest')
+data.setCell(1, 3, 54707);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PlaceOrderAsGuestUser')
+data.setCell(2, 2, 'testlayer.GuestTest')
+data.setCell(2, 3, 48618);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addOneItemInCart')
+data.setCell(3, 2, 'testlayer.ShoppingCartTest')
+data.setCell(3, 3, 48578);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchByKeyword')
+data.setCell(4, 2, 'testlayer.SearchingTest')
+data.setCell(4, 3, 46738);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchItemByPartialItemText')
+data.setCell(5, 2, 'testlayer.SearchingTest')
+data.setCell(5, 3, 29090);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchByDescriptionText')
+data.setCell(6, 2, 'testlayer.SearchingTest')
+data.setCell(6, 3, 21552);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'emptyAddressDetailsErrMsgs')
+data.setCell(7, 2, 'testlayer.YourAddressTest')
+data.setCell(7, 3, 13801);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'removeItemFromCart')
+data.setCell(8, 2, 'testlayer.ShoppingCartTest')
+data.setCell(8, 3, 4187);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'nextPage')
+data.setCell(9, 2, 'testlayer.SearchingTest')
+data.setCell(9, 3, 3687);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkPrimeMembershipLink')
+data.setCell(10, 2, 'testlayer.YourAccountTest')
+data.setCell(10, 3, 3449);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkMusicLibraryLink')
+data.setCell(11, 2, 'testlayer.YourAccountTest')
+data.setCell(11, 3, 3291);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'keepMeSignedIn')
+data.setCell(12, 2, 'testlayer.LoginTest')
+data.setCell(12, 3, 3173);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validEmailAndPassword')
+data.setCell(13, 2, 'testlayer.LoginTest')
+data.setCell(13, 3, 3048);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addAddress')
+data.setCell(14, 2, 'testlayer.YourAddressTest')
+data.setCell(14, 3, 2437);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'editName')
+data.setCell(15, 2, 'testlayer.LoginAndSecurityTest')
+data.setCell(15, 3, 2132);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'buyAgainRecommendations')
+data.setCell(16, 2, 'testlayer.YourOrdersTest')
+data.setCell(16, 3, 1501);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkYourAccountLink')
+data.setCell(17, 2, 'testlayer.YourAccountTest')
+data.setCell(17, 3, 1489);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'emptyPassword')
+data.setCell(18, 2, 'testlayer.LoginTest')
+data.setCell(18, 3, 1178);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchItemByPartialItemNumber')
+data.setCell(19, 2, 'testlayer.SearchingTest')
+data.setCell(19, 3, 1118);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'sublistDisplayed')
+data.setCell(20, 2, 'testlayer.YourAccountTest')
+data.setCell(20, 3, 1097);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validEmailAddress')
+data.setCell(21, 2, 'testlayer.LoginTest')
+data.setCell(21, 3, 921);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'cancelledOrders')
+data.setCell(22, 2, 'testlayer.YourOrdersTest')
+data.setCell(22, 3, 881);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchItemByItemNumber')
+data.setCell(23, 2, 'testlayer.SearchingTest')
+data.setCell(23, 3, 879);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'notYetShipped')
+data.setCell(24, 2, 'testlayer.YourOrdersTest')
+data.setCell(24, 3, 862);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'invalidPhone')
+data.setCell(25, 2, 'testlayer.LoginTest')
+data.setCell(25, 3, 841);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'invalidEmailAddress')
+data.setCell(26, 2, 'testlayer.LoginTest')
+data.setCell(26, 3, 797);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'productsPerPage')
+data.setCell(27, 2, 'testlayer.SearchingTest')
+data.setCell(27, 3, 348);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'orderHistoryPast3Months')
+data.setCell(28, 2, 'testlayer.YourOrdersTest')
+data.setCell(28, 3, 311);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'emptyEmailAddress')
+data.setCell(29, 2, 'testlayer.LoginTest')
+data.setCell(29, 3, 302);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyHomePageMsg')
+data.setCell(30, 2, 'testlayer.YourAccountTest')
+data.setCell(30, 3, 104);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkAddressAddedSuccessfully')
+data.setCell(31, 2, 'testlayer.YourAddressTest')
+data.setCell(31, 3, 28);
+window.suiteTableData['AmazonProject']= { tableData: data, tableDiv: 'times-div-AmazonProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
+              <div id="times-div-AmazonProject">
+              </div> <!-- times-div-AmazonProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmazonProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmazonProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.GuestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PlaceOrderAsGuestUser</span>
+                <span class="method-start">9033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">57655 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourOrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">60856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyAgainRecommendations</span>
+                <span class="method-start">73034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">74537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">75947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelledOrders</span>
+                <span class="method-start">89305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">90187 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">91403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMusicLibraryLink</span>
+                <span class="method-start">100615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">103908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">105095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkPrimeMembershipLink</span>
+                <span class="method-start">114817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">118267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">119477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkYourAccountLink</span>
+                <span class="method-start">128388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">129878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginAndSecurityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">131152 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editName</span>
+                <span class="method-start">143617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">145750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourOrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">146840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notYetShipped</span>
+                <span class="method-start">159893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">160756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">162007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderHistoryPast3Months</span>
+                <span class="method-start">173119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">173432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">174719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sublistDisplayed</span>
+                <span class="method-start">184194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">185291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">186513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageMsg</span>
+                <span class="method-start">195952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">196057 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">197324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addOneItemInCart</span>
+                <span class="method-start">206989 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">255568 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emptyAddressDetailsErrMsgs</span>
+                <span class="method-start">268828 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">282631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyEmailAddress</span>
+                <span class="method-start">289449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">289751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">290652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByKeyword</span>
+                <span class="method-start">298381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">345120 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourAddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addAddress</span>
+                <span class="method-start">348508 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">350946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">applyInvalidCoupon</span>
+                <span class="method-start">361179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">415888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailAddress</span>
+                <span class="method-start">422733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">423530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">424445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchByDescriptionText</span>
+                <span class="method-start">432183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">453736 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">455220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDifferentItems</span>
+                <span class="method-start">465293 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.YourAddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkAddressAddedSuccessfully</span>
+                <span class="method-start">582730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">582758 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">585494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItemByPartialItemText</span>
+                <span class="method-start">596043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">625133 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">627531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validEmailAddress</span>
+                <span class="method-start">634434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">635356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">636205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPhone</span>
+                <span class="method-start">642618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">643460 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">644403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemFromCart</span>
+                <span class="method-start">654277 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">658465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItemByItemNumber</span>
+                <span class="method-start">667455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">668335 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">669550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyPassword</span>
+                <span class="method-start">675866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">677044 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">677908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItemByPartialItemNumber</span>
+                <span class="method-start">685869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">686988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">688184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productsPerPage</span>
+                <span class="method-start">696351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">696700 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">697901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validEmailAndPassword</span>
+                <span class="method-start">704469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">707518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">708914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keepMeSignedIn</span>
+                <span class="method-start">715753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">718926 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialsetup</span>
+                <span class="method-start">720200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nextPage</span>
+                <span class="method-start">728629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">732318 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "AmazonProject" parallel= "tests">
+
+	<test name = "testng" allow-return-values ="true">
+	  <classes>
+	    
+	
+	     
+	    
+	     
+	     <class name = "testlayer.GuestTest"/>
+	     <class name = "testlayer.LoginAndSecurityTest"/>
+	    
+	      <class name = "testlayer.ShoppingCartTest"/>
+	       <class name = "testlayer.SearchingTest"/>
+	       <class name = "testlayer.YourAddressTest"/>
+	      <class name = "testlayer.YourOrdersTest"/>
+	           <class name = "testlayer.YourAccountTest"/>
+	       <class name = "testlayer.LoginTest"/>
+	  </classes>
+    </test>
+</suite>  

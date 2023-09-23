@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="29" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-23T09:36:01 EDT" name="AmazonProject" finished-at="2023-09-23T09:48:15 EDT" duration-ms="734108">
+    <groups>
+    </groups>
+    <test started-at="2023-09-23T09:36:01 EDT" name="testng" finished-at="2023-09-23T09:48:15 EDT" duration-ms="734108">
+      <class name="testlayer.LoginTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:40:43 EDT" name="initialsetup" finished-at="2023-09-23T09:40:50 EDT" duration-ms="6818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="emptyEmailAddress()[pri:1, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:40:50 EDT" name="emptyEmailAddress" finished-at="2023-09-23T09:40:50 EDT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAddress -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:40:50 EDT" name="closeBrowser" finished-at="2023-09-23T09:40:51 EDT" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:42:56 EDT" name="initialsetup" finished-at="2023-09-23T09:43:03 EDT" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="invalidEmailAddress()[pri:2, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:43:03 EDT" name="invalidEmailAddress" finished-at="2023-09-23T09:43:04 EDT" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailAddress -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:43:04 EDT" name="closeBrowser" finished-at="2023-09-23T09:43:05 EDT" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:28 EDT" name="initialsetup" finished-at="2023-09-23T09:46:35 EDT" duration-ms="6903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="validEmailAddress()[pri:3, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:35 EDT" name="validEmailAddress" finished-at="2023-09-23T09:46:36 EDT" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailAddress -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:36 EDT" name="closeBrowser" finished-at="2023-09-23T09:46:37 EDT" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:37 EDT" name="initialsetup" finished-at="2023-09-23T09:46:43 EDT" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="invalidPhone()[pri:4, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:43 EDT" name="invalidPhone" finished-at="2023-09-23T09:46:44 EDT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPhone -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:46:44 EDT" name="closeBrowser" finished-at="2023-09-23T09:46:45 EDT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:10 EDT" name="initialsetup" finished-at="2023-09-23T09:47:16 EDT" duration-ms="6316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="emptyPassword()[pri:5, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:16 EDT" name="emptyPassword" finished-at="2023-09-23T09:47:18 EDT" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:18 EDT" name="closeBrowser" finished-at="2023-09-23T09:47:18 EDT" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:38 EDT" name="initialsetup" finished-at="2023-09-23T09:47:45 EDT" duration-ms="6568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="validEmailAndPassword()[pri:6, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:45 EDT" name="validEmailAndPassword" finished-at="2023-09-23T09:47:48 EDT" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailAndPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:48 EDT" name="closeBrowser" finished-at="2023-09-23T09:47:49 EDT" duration-ms="1395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:49 EDT" name="initialsetup" finished-at="2023-09-23T09:47:56 EDT" duration-ms="6839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="keepMeSignedIn()[pri:7, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:56 EDT" name="keepMeSignedIn" finished-at="2023-09-23T09:47:59 EDT" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keepMeSignedIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginTest@606e4010]" started-at="2023-09-23T09:47:59 EDT" name="closeBrowser" finished-at="2023-09-23T09:48:01 EDT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.LoginTest -->
+      <class name="testlayer.SearchingTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:40:51 EDT" name="initialsetup" finished-at="2023-09-23T09:40:59 EDT" duration-ms="7727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="searchByKeyword()[pri:1, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:40:59 EDT" name="searchByKeyword" finished-at="2023-09-23T09:41:46 EDT" duration-ms="46738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByKeyword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:41:46 EDT" name="closeBrowser" finished-at="2023-09-23T09:41:49 EDT" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:43:05 EDT" name="initialsetup" finished-at="2023-09-23T09:43:13 EDT" duration-ms="7736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="searchByDescriptionText()[pri:2, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:43:13 EDT" name="searchByDescriptionText" finished-at="2023-09-23T09:43:34 EDT" duration-ms="21552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByDescriptionText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:43:34 EDT" name="closeBrowser" finished-at="2023-09-23T09:43:36 EDT" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:45:46 EDT" name="initialsetup" finished-at="2023-09-23T09:45:57 EDT" duration-ms="10547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="searchItemByPartialItemText()[pri:3, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:45:57 EDT" name="searchItemByPartialItemText" finished-at="2023-09-23T09:46:26 EDT" duration-ms="29090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemByPartialItemText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:46:26 EDT" name="closeBrowser" finished-at="2023-09-23T09:46:28 EDT" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:46:59 EDT" name="initialsetup" finished-at="2023-09-23T09:47:08 EDT" duration-ms="8990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="searchItemByItemNumber()[pri:4, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:08 EDT" name="searchItemByItemNumber" finished-at="2023-09-23T09:47:09 EDT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemByItemNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:09 EDT" name="closeBrowser" finished-at="2023-09-23T09:47:10 EDT" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:18 EDT" name="initialsetup" finished-at="2023-09-23T09:47:26 EDT" duration-ms="7961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="searchItemByPartialItemNumber()[pri:5, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:26 EDT" name="searchItemByPartialItemNumber" finished-at="2023-09-23T09:47:28 EDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemByPartialItemNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:28 EDT" name="closeBrowser" finished-at="2023-09-23T09:47:29 EDT" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:29 EDT" name="initialsetup" finished-at="2023-09-23T09:47:37 EDT" duration-ms="8167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="productsPerPage()[pri:6, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:37 EDT" name="productsPerPage" finished-at="2023-09-23T09:47:37 EDT" duration-ms="348" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [235]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [235]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:643)
+at testlayer.SearchingTest.productsPerPage(SearchingTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsPerPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:47:37 EDT" name="closeBrowser" finished-at="2023-09-23T09:47:38 EDT" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:48:01 EDT" name="initialsetup" finished-at="2023-09-23T09:48:09 EDT" duration-ms="8429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="nextPage()[pri:7, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:48:09 EDT" name="nextPage" finished-at="2023-09-23T09:48:13 EDT" duration-ms="3687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.SearchingTest@5afa3c9]" started-at="2023-09-23T09:48:13 EDT" name="closeBrowser" finished-at="2023-09-23T09:48:15 EDT" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.SearchingTest -->
+      <class name="testlayer.ShoppingCartTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:39:18 EDT" name="initialsetup" finished-at="2023-09-23T09:39:28 EDT" duration-ms="9665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="addOneItemInCart()[pri:1, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:39:28 EDT" name="addOneItemInCart" finished-at="2023-09-23T09:40:16 EDT" duration-ms="48578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneItemInCart -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:41:52 EDT" name="initialsetup" finished-at="2023-09-23T09:42:02 EDT" duration-ms="10233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="applyInvalidCoupon()[pri:2, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:42:02 EDT" name="applyInvalidCoupon" finished-at="2023-09-23T09:42:56 EDT" duration-ms="54707" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #spc\-gcpromoinput
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [620e6239-0c35-4d87-ad4b-f6b7a4ae08cb, findElement {using=id, value=spc-gcpromoinput}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:43650, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 55756, moz:profile: C:\Users\kulje\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 620e6239-0c35-4d87-ad4b-f6b7a4ae08cb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #spc\-gcpromoinput
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [620e6239-0c35-4d87-ad4b-f6b7a4ae08cb, findElement {using=id, value=spc-gcpromoinput}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:43650, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 55756, moz:profile: C:\Users\kulje\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 620e6239-0c35-4d87-ad4b-f6b7a4ae08cb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+at pompackage.PomShoppingCart.enterInvalidCoupon(PomShoppingCart.java:77)
+at testlayer.ShoppingCartTest.applyInvalidCoupon(ShoppingCartTest.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyInvalidCoupon -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:43:36 EDT" name="initialsetup" finished-at="2023-09-23T09:43:46 EDT" duration-ms="10073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="addDifferentItems()[pri:3, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:43:46 EDT" name="addDifferentItems" finished-at="2023-09-23T09:45:43 EDT" duration-ms="117435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDifferentItems -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:46:45 EDT" name="initialsetup" finished-at="2023-09-23T09:46:55 EDT" duration-ms="9874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="removeItemFromCart()[pri:4, instance:testlayer.ShoppingCartTest@72cc7e6f]" started-at="2023-09-23T09:46:55 EDT" name="removeItemFromCart" finished-at="2023-09-23T09:46:59 EDT" duration-ms="4187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCart -->
+      </class> <!-- testlayer.ShoppingCartTest -->
+      <class name="testlayer.LoginAndSecurityTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.LoginAndSecurityTest@5f049ea1]" started-at="2023-09-23T09:38:12 EDT" name="initialsetup" finished-at="2023-09-23T09:38:24 EDT" duration-ms="12464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="editName()[pri:0, instance:testlayer.LoginAndSecurityTest@5f049ea1]" started-at="2023-09-23T09:38:24 EDT" name="editName" finished-at="2023-09-23T09:38:26 EDT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.LoginAndSecurityTest@5f049ea1]" started-at="2023-09-23T09:38:26 EDT" name="closeBrowser" finished-at="2023-09-23T09:38:27 EDT" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.LoginAndSecurityTest -->
+      <class name="testlayer.YourOrdersTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:01 EDT" name="initialsetup" finished-at="2023-09-23T09:37:14 EDT" duration-ms="12178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="buyAgainRecommendations()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:14 EDT" name="buyAgainRecommendations" finished-at="2023-09-23T09:37:15 EDT" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAgainRecommendations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:15 EDT" name="closeBrowser" finished-at="2023-09-23T09:37:17 EDT" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:17 EDT" name="initialsetup" finished-at="2023-09-23T09:37:30 EDT" duration-ms="13358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="cancelledOrders()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:30 EDT" name="cancelledOrders" finished-at="2023-09-23T09:37:31 EDT" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelledOrders -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:37:31 EDT" name="closeBrowser" finished-at="2023-09-23T09:37:32 EDT" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:27 EDT" name="initialsetup" finished-at="2023-09-23T09:38:40 EDT" duration-ms="13053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="notYetShipped()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:40 EDT" name="notYetShipped" finished-at="2023-09-23T09:38:41 EDT" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notYetShipped -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:41 EDT" name="closeBrowser" finished-at="2023-09-23T09:38:43 EDT" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:43 EDT" name="initialsetup" finished-at="2023-09-23T09:38:54 EDT" duration-ms="11112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="orderHistoryPast3Months()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:54 EDT" name="orderHistoryPast3Months" finished-at="2023-09-23T09:38:54 EDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryPast3Months -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourOrdersTest@909217e]" started-at="2023-09-23T09:38:54 EDT" name="closeBrowser" finished-at="2023-09-23T09:38:55 EDT" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.YourOrdersTest -->
+      <class name="testlayer.GuestTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.GuestTest@4b29d1d2]" started-at="2023-09-23T09:36:01 EDT" name="initialsetup" finished-at="2023-09-23T09:36:10 EDT" duration-ms="9015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="PlaceOrderAsGuestUser()[pri:0, instance:testlayer.GuestTest@4b29d1d2]" started-at="2023-09-23T09:36:10 EDT" name="PlaceOrderAsGuestUser" finished-at="2023-09-23T09:36:58 EDT" duration-ms="48618" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Order Placed Successfully] but found [Sign in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Order Placed Successfully] but found [Sign in]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testlayer.GuestTest.PlaceOrderAsGuestUser(GuestTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderAsGuestUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.GuestTest@4b29d1d2]" started-at="2023-09-23T09:36:58 EDT" name="closeBrowser" finished-at="2023-09-23T09:37:01 EDT" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.GuestTest -->
+      <class name="testlayer.YourAccountTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:32 EDT" name="initialsetup" finished-at="2023-09-23T09:37:41 EDT" duration-ms="9212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="checkMusicLibraryLink()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:41 EDT" name="checkMusicLibraryLink" finished-at="2023-09-23T09:37:44 EDT" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMusicLibraryLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:44 EDT" name="closeBrowser" finished-at="2023-09-23T09:37:46 EDT" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:46 EDT" name="initialsetup" finished-at="2023-09-23T09:37:55 EDT" duration-ms="9722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="checkPrimeMembershipLink()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:55 EDT" name="checkPrimeMembershipLink" finished-at="2023-09-23T09:37:59 EDT" duration-ms="3449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPrimeMembershipLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:37:59 EDT" name="closeBrowser" finished-at="2023-09-23T09:38:00 EDT" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:38:00 EDT" name="initialsetup" finished-at="2023-09-23T09:38:09 EDT" duration-ms="8910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="checkYourAccountLink()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:38:09 EDT" name="checkYourAccountLink" finished-at="2023-09-23T09:38:10 EDT" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYourAccountLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:38:10 EDT" name="closeBrowser" finished-at="2023-09-23T09:38:12 EDT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:38:55 EDT" name="initialsetup" finished-at="2023-09-23T09:39:05 EDT" duration-ms="9473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="sublistDisplayed()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:39:05 EDT" name="sublistDisplayed" finished-at="2023-09-23T09:39:06 EDT" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sublistDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:39:06 EDT" name="closeBrowser" finished-at="2023-09-23T09:39:07 EDT" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:39:07 EDT" name="initialsetup" finished-at="2023-09-23T09:39:17 EDT" duration-ms="9439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="verifyHomePageMsg()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:39:17 EDT" name="verifyHomePageMsg" finished-at="2023-09-23T09:39:17 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAccountTest@18271936]" started-at="2023-09-23T09:39:17 EDT" name="closeBrowser" finished-at="2023-09-23T09:39:18 EDT" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.YourAccountTest -->
+      <class name="testlayer.YourAddressTest">
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testlayer.YourAddressTest@72035809]" started-at="2023-09-23T09:40:16 EDT" name="initialsetup" finished-at="2023-09-23T09:40:29 EDT" duration-ms="13260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method signature="emptyAddressDetailsErrMsgs()[pri:1, instance:testlayer.YourAddressTest@72035809]" started-at="2023-09-23T09:40:29 EDT" name="emptyAddressDetailsErrMsgs" finished-at="2023-09-23T09:40:43 EDT" duration-ms="13801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyAddressDetailsErrMsgs -->
+        <test-method signature="addAddress()[pri:2, instance:testlayer.YourAddressTest@72035809]" started-at="2023-09-23T09:41:49 EDT" name="addAddress" finished-at="2023-09-23T09:41:52 EDT" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="checkAddressAddedSuccessfully()[pri:3, instance:testlayer.YourAddressTest@72035809]" started-at="2023-09-23T09:45:43 EDT" name="checkAddressAddedSuccessfully" finished-at="2023-09-23T09:45:43 EDT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddressAddedSuccessfully -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testlayer.YourAddressTest@72035809]" started-at="2023-09-23T09:45:43 EDT" name="closeBrowser" finished-at="2023-09-23T09:45:46 EDT" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testlayer.YourAddressTest -->
+    </test> <!-- testng -->
+  </suite> <!-- AmazonProject -->
+</testng-results>
